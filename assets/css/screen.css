@@ -560,6 +560,7 @@ iframe {max-width:100%;}
         border-radius:0;
         background-image: url(../images/category-bg.jpg);
         background-size:cover;
+		background-position: 50% 50%;
 	}
 	.jumbotron.fortags .col-md-4 {
 			background:rgba(0,0,0,0.75);
