@@ -1,6 +1,6 @@
 # Site
-name: Choosebyte.com
-description: Jekyll Template for Blogging
+name: Choosebyte
+#description: Jekyll Template for Blogging
 meta_description: "Santosh Kumar's Blog"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
