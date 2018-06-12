@@ -558,7 +558,7 @@ iframe {max-width:100%;}
         padding:0;
         height:350px;
         border-radius:0;
-        background-image: url(../images/jumbotron.jpg);
+        background-image: url(../images/category-bg.jpg);
         background-size:cover;
 	}
 	.jumbotron.fortags .col-md-4 {
