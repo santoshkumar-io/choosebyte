@@ -59,6 +59,9 @@
                 </li>
 -->
                 <li class="nav-item">
+                    <input type="text" class="form-control" id="search-input" placeholder="search...">
+                </li>
+                <li class="nav-item">
                 <a target="_blank" class="nav-link" href="https://www.facebook.com/choosebytes/"><i class="fa fa-facebook"></i></a>
                 </li>
                 <li class="nav-item">
@@ -75,7 +78,7 @@
     
 <div class="site-content">   
 <div class="container">
-    
+<ul id="results-container"></ul>
 <!-- Site Title
 ================================================== -->
 
@@ -167,7 +170,19 @@
 <script type='text/javascript' src='{{ site.baseurl }}/assets/js/masonry.pkgd.min.js'></script>
     
 <script src="{{ site.baseurl }}/assets/js/mediumish.js"></script>
-    
 <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js" async></script>
+<script src="{{ site.baseurl }}/assets/js/simple-jekyll-search.min.js"></script>
+<script>
+    window.simpleJekyllSearch = new SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '{{ site.baseurl }}/search.json',
+        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+        noResultsText: 'No results found',
+        limit: 10,
+        fuzzy: false,
+        exclude: ['Welcome']
+    })
+</script>
 </body>
 </html>
