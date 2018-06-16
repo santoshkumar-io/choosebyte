@@ -2,7 +2,7 @@
 layout: post
 title:  "Why experienced developer should join startup"
 author: santosh
-categories: [ Miscellaneous ]
+categories: [ Programming ]
 image: assets/images/startup.jpg
 ---
 
