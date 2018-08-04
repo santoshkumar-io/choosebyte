@@ -4,6 +4,7 @@ title:  "Why experienced developer should join startup"
 author: santosh
 categories: [ Programming ]
 image: assets/images/startup.jpg
+featured: true
 ---
 
 Some time ago while switching to a new Job, I was very confused and was not able to decide which type of company to join. At that time I had experience of almost one and half years. And I had worked primarily in Wordpress and Laravel. I could not decide between the Startup and well-established company. At the end of the day, I decided to try for Start-ups.  
