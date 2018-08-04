@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Perfect Git Strategy with Gitflow for large projects"
+title:  "(Draft)Perfect Git Strategy with Gitflow for large projects"
 author: santosh
 categories: [ Git ]
 image: assets/images/gitflow-bg.png
